@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.logo-icon {
+    font-weight: 900;
+    font-size: 32px;
+    margin-top: 3px;
+}
+
+h4 {
+    font-size: 1.7rem;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.about-text {
+    color: #fff;
+}
+
+.under-line {
+    text-decoration: none;
+}
+
+
+
+.blog-footer {
+    padding: 2.5rem 0;
+    color: #727272;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-top: 0.05rem solid #e5e5e5;
+}
+
+i {
+    margin-right: 10px;
+}
+
+ul {
+    margin-top: 10px;
+}
+
+.fa-brands {
+    color: white;
+    font-size: 30px;
+    margin-top: 15px;
+}
+
+.fa-brands:hover {
+    transform: translateY(-10px);
+    transition: 0.5s;
+
+}
+
+
+.effect:hover{
+    transform: translateY(-15px);
+    transition: 0.5s;
+    
+}
