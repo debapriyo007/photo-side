@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Rowdies&display=swap');
 
-
-
 * {
     margin: 0;
     padding: 0;
@@ -11,41 +9,22 @@
     font-weight: 900;
     font-size: 32px;
     margin-top: 3px;
+    color:black;
 }
 
 h1{
     font-weight: 200;
     font-family: 'Rowdies', cursive;
+    color:black;
 }
 
 h4 {
     font-size: 1.7rem;
-}
-
-.logo {
-    font-size: 2rem;
-    font-weight: bold;
+    font-weight: 500;
     font-family: 'Rowdies', cursive;
-    font-weight: 200;
-    
 }
-
-.about-text {
-    color: #fff;
-}
-
-.under-line {
-    text-decoration: none;
-}
-
-
-
-.blog-footer {
-    padding: 2.5rem 0;
-    color: #727272;
-    text-align: center;
-    background-color: #f9f9f9;
-    border-top: 0.05rem solid #e5e5e5;
+p{
+    color: black;
 }
 
 i {
@@ -56,8 +35,26 @@ ul {
     margin-top: 10px;
 }
 
+  /* --------------------------Header-part------------------- */
+
+.logo {
+    font-size: 2rem;
+    font-weight: 200;
+    font-family: 'Rowdies', cursive;
+    color:black;
+
+}
+
+.about-text {
+    color: black;
+}
+
+.under-line {
+    text-decoration: none;
+}
+
 .fa-brands {
-    color: white;
+    color: rgb(10, 2, 2);
     font-size: 30px;
     margin-top: 15px;
 }
@@ -74,3 +71,119 @@ ul {
     transition: 0.5s;
     
 }
+
+.wave-image{
+    width: 100%;
+}
+
+/* ----------------------main-part---------------- */
+
+.main-container{
+    background-image:linear-gradient(to left, purple, yellow);
+}
+.nav-color{
+    background-image:linear-gradient(to left, purple, yellow);
+}
+.main-paragraph{
+    color: black;
+    font-weight: 300;
+    font-size: 1rem;
+    margin-bottom: 58px;
+    margin-top: 29px;
+}
+
+
+/* -------------------------------Team-Part */
+
+#team {
+    margin: 100px 0;
+}
+
+.container-team{
+    background-color:#fff ;
+}
+
+.team {
+    border-left: 6px solid #121211;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.team img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin: 0 10px;
+
+}
+
+.user-details {
+    display: inline-block;
+    font-size: 12px;
+
+}
+
+/* --------------------fotter-part------------------- */
+
+#fotter {
+    background-image:linear-gradient(to left, purple, yellow);
+    color: #fff;
+
+}
+
+.fotter-img {
+    width: 100%;
+}
+
+.fotter-box {
+    padding: 20px;
+}
+
+.fotter-box img {
+    width: 120px;
+    margin-bottom: 20px;
+
+}
+
+.fa-solid {
+    margin-right: 8px;
+    font-size: 25px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 2px;
+    background-image:linear-gradient(to right, purple, yellow);
+
+}
+
+.footer-box .form-control{
+    box-shadow: none !important;
+    border: none;
+    border-radius: 0;
+    margin-top: 25px;
+    max-width: 250px;
+}
+
+.footer-box .btn-outline-dark{
+   
+    margin-top: 30px;
+    
+}
+
+hr{
+    background-color: #fff;
+
+}
+.copy-rigt{
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    text-align: center;
+
+}
+
+
+
+
+
